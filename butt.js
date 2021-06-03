@@ -4,8 +4,8 @@ function butt(buttlessString) {
     }
     let splitButtArray = buttlessString.split(" ")
     let math = Math.floor(Math.random()*splitButtArray.length)
-    splitButtSentence[math] = "butt"
-    let buttfullSentence = splitButtSentence.join(" ")
+    splitButtArray[math] = "butt"
+    let buttfullSentence = splitButtArray.join(" ")
 
     return buttfullSentence
 }
