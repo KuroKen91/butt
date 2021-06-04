@@ -18,6 +18,7 @@
   "homepage": "https://github.com/KuroKen91/random-replace#readme",
   "dependencies": {
     "chai": "^4.3.4",
-    "mocha": "^8.4.0"
+    "mocha": "^8.4.0",
+    "np": "^7.5.0"
   }
 }
