@@ -1,14 +1,14 @@
 const { expect } = require("chai")
-const { butt } = require("../butt.js")
+const { randomReplace } = require("../replaceWord.js")
 
-describe("butt", function() {
+describe("randomReplace", function() {
     it("Should return a string", () => {
-        const testButt = butt("This is a test");
-        expect(typeof testButt).to.equal("string");
+        const test = randomReplace("YOOOO", "This is a test");
+        expect(typeof test).to.equal("string");
     })
 
-    it("should return a string with a random butt in it", () => {
-        const testButt = butt("This is a test");
-        expect(testButt).to.be.an('string').that.includes("butt");
+    it("should return a string with your word choice in it", () => {
+        const test = randomReplace("YOOOO","This is a test");
+        expect(test).to.be.an('string').that.includes("YOOOO");
     })
 })
