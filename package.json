@@ -1,5 +1,5 @@
 {
-  "name": "butt",
+  "name": "random-replace",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KuroKen91/butt.git"
+    "url": "git+https://github.com/KuroKen91/random-replace.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KuroKen91/butt/issues"
+    "url": "https://github.com/KuroKen91/random-replace/issues"
   },
-  "homepage": "https://github.com/KuroKen91/butt#readme",
+  "homepage": "https://github.com/KuroKen91/random-replace#readme",
   "dependencies": {
     "chai": "^4.3.4",
     "mocha": "^8.4.0"
